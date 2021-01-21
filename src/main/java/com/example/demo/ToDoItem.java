@@ -37,6 +37,10 @@ public class ToDoItem {
         return this.checked;
     }
 
+    public ToDoFolder getFolder() {
+        return this.folder;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
@@ -47,6 +51,10 @@ public class ToDoItem {
 
     public void setChecked(Boolean checked) {
         this.checked = checked;
+    }
+
+    public void setFolder(ToDoFolder folder) {
+        this.folder = folder;
     }
 
     @Override
